@@ -53,3 +53,10 @@ h1 {
     width: 60%;
     height: auto;
 }
+
+.lottie{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    aspect-ratio: 1 / 1;
+}
