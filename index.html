@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Lottie Player</title>
 </head>
@@ -15,9 +15,11 @@
 <body>
     <div id="wrapper">
         <div class="flex center column">
-            <!-- <img src="images/lottieplayer-icon-min.png" class="icon" /> -->
             <div class="flex column">
-                <h1>Lottie Player</h1>
+                <div class="flex center">
+                    <img src="images/lottieplayer-icon-min.png" class="icon" />
+                    <h1>Lottie Player</h1>
+                </div>
                 <p class="center">It plays Lottie Animations.<br />On your own Mac.</p>
             </div>
             <div class="image">
@@ -26,7 +28,7 @@
                 <img src="images/lottie-player_v1.0.0-min.png" class="screen" />
             </div>
         </div>
-        <button>DOWNLOAD NOW</button>
+        <a class="button" aria-role="button">DOWNLOAD NOW</a>
     </div>
 
     <script src="lottie.js"></script>
