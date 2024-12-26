@@ -26,7 +26,7 @@ body {
     text-align: center;
 }
 
-.gap{
+.gap {
     gap: 24px;
 }
 
@@ -94,7 +94,7 @@ h1 {
     transition: all 100ms linear 0s;
 }
 
-.button:hover{
+.button:hover {
     background: linear-gradient(-90deg, #f4edff 14.46%, #ff5ec7 81.87%);
     box-shadow: 0px 0px 32px 0px #ff5fca;
     color: #ffffff;
@@ -109,9 +109,14 @@ h1 {
         width: 100%;
     }
 
-    .gap{
+    .gap {
         margin-top: 2em;
         flex-direction: column !important;
         gap: 0;
+    }
+
+    #wrapper{
+        height: fit-content;
+        padding-bottom: 2em;
     }
 }
