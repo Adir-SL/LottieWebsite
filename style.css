@@ -37,6 +37,7 @@ p {
 .icon {
     width: 120px;
     height: 120px;
+    filter: drop-shadow(1px 1px 0 white) drop-shadow(1px -1px 0 white) drop-shadow(-1px -1px 0 white) drop-shadow(-1px 1px 0 white);
 }
 
 h1 {
@@ -86,6 +87,13 @@ h1 {
     text-decoration: none;
     background: linear-gradient(-90deg, #D1B9FF 14.46%, #DB31A0 81.87%);
     box-shadow: 0px 0px 32px 0px #CE2F99dd;
+    transition: all 100ms linear 0s;
+}
+
+.button:hover{
+    background: linear-gradient(-90deg, #f4edff 14.46%, #ff5ec7 81.87%);
+    box-shadow: 0px 0px 32px 0px #ff5fca;
+    color: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {
