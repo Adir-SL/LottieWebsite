@@ -7,8 +7,8 @@
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: black;
-
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .icon {
@@ -19,6 +19,8 @@
 h1 {
     font-weight: 400;
     font-size: 6em;
+    padding: 0;
+    margin: 0;
 }
 
 .screen {
