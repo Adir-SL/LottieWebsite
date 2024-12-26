@@ -26,6 +26,10 @@ body {
     text-align: center;
 }
 
+.gap{
+    gap: 24px;
+}
+
 p {
     font-size: 1.2em;
 }
