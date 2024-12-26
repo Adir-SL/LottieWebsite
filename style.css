@@ -71,3 +71,12 @@ h1 {
 #lottie-2{
     left: 51%;
 }
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 15vw;
+    }
+    .image{
+        width: 100%;
+    }
+  }
