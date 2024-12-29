@@ -134,6 +134,10 @@ ol li {
     padding: 12px;
 }
 
+ol li {
+    list-style-type: unset;
+}
+
 ul li img {
     width: 5em;
     height: 5em;
