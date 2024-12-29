@@ -111,7 +111,8 @@ h2 {
     margin-top: 5em;
 }
 
-ul {
+ul,
+ol {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -120,7 +121,8 @@ ul {
     justify-content: center;
 }
 
-ul li {
+ul li,
+ol li {
     list-style-type: none;
     min-width: 9em;
     width: calc(20% - 24px);
@@ -132,7 +134,7 @@ ul li {
     padding: 12px;
 }
 
-ul li img{
+ul li img {
     width: 5em;
     height: 5em;
 }
@@ -170,19 +172,23 @@ footer a:hover {
         height: fit-content;
         padding-bottom: 2em;
     }
-    h2{
+
+    h2 {
         margin-top: 2em;
     }
 
-    ul {
+    ul,
+    ol {
         flex-direction: column;
         align-items: center;
     }
 
-    ul li {
+    ul li,
+    ol li {
         width: calc(60% - 24px);
     }
-    footer{
+
+    footer {
         margin-bottom: 1em;
     }
 }
