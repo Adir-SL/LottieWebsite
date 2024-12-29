@@ -140,7 +140,8 @@ footer a {
     color: #8772af;
     text-decoration: none;
 }
-footer a:hover{
+
+footer a:hover {
     text-decoration: underline;
 }
 
@@ -162,5 +163,20 @@ footer a:hover{
     #wrapper {
         height: fit-content;
         padding-bottom: 2em;
+    }
+    h2{
+        margin-top: 2em;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li {
+        width: calc(60% - 24px);
+    }
+    footer{
+        margin-bottom: 1em;
     }
 }
