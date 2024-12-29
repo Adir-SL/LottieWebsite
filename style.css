@@ -136,6 +136,20 @@ ol li {
 
 ol li {
     list-style-type: unset;
+    list-style-position: inside;
+}
+
+ol li::marker {
+    font-size: 5em;
+    width: 2em;
+    overflow: hidden;
+    color:#DB31A0;
+    font-weight: 600;
+}
+
+ol li::before {
+    content: '\A';
+    white-space: pre;
 }
 
 ul li img {
