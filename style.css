@@ -122,15 +122,18 @@ ul {
 
 ul li {
     list-style-type: none;
-    text-align: left;
     width: calc(20% - 24px);
     aspect-ratio: 1 / 1;
-    background-color: red;
+    background-color: inherit;
+    box-sizing: border-box;
+    border: 1.5px solid #ffffff66;
+    border-radius: 8px;
+    padding: 12px;
 }
 
-footer{
-    margin-top: 4em;
-    margin-bottom: 5em;
+footer {
+    margin: 4em 0;
+    color: #ffffff99;
 }
 
 @media only screen and (max-width: 600px) {
