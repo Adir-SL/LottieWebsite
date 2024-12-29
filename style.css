@@ -44,15 +44,16 @@ p {
 }
 
 h1 {
-    font-weight: 400;
     font-size: 4.5em;
+    font-weight: 400;
     padding: 0;
     margin: 0;
     line-height: 1;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
-.center{
+
+.center {
     text-align: center;
 }
 
@@ -104,6 +105,34 @@ h1 {
     color: #ffffff;
 }
 
+h2 {
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-top: 5em;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: left;
+    width: calc(20% - 24px);
+    aspect-ratio: 1 / 1;
+    background-color: red;
+}
+
+footer{
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 15vw;
@@ -119,7 +148,7 @@ h1 {
         gap: 0;
     }
 
-    #wrapper{
+    #wrapper {
         height: fit-content;
         padding-bottom: 2em;
     }
