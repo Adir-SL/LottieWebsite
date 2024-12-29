@@ -122,13 +122,19 @@ ul {
 
 ul li {
     list-style-type: none;
+    min-width: 9em;
     width: calc(20% - 24px);
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 4 / 3;
     background-color: inherit;
     box-sizing: border-box;
     border: 1.5px solid #ffffff66;
     border-radius: 8px;
     padding: 12px;
+}
+
+ul li img{
+    width: 5em;
+    height: 5em;
 }
 
 footer {
