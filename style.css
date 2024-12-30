@@ -140,6 +140,7 @@ ul li {
 ol li {
     list-style-type: unset;
     list-style-position: inside;
+    margin-top: 2em;
 }
 
 ol li::marker {
@@ -148,6 +149,9 @@ ol li::marker {
     overflow: hidden;
     color: #DB31A0;
     font-weight: 600;
+    margin: 0;
+    padding: 0;
+    line-height: 0.3em;
 }
 
 ol li::before {
