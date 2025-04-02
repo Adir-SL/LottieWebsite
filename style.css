@@ -30,7 +30,7 @@ body {
     gap: 24px;
 }
 .gap-12 {
-    gap: 12px;
+    gap: 12px !important;
 }
 
 p {
