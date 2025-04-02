@@ -29,6 +29,9 @@ body {
 .gap {
     gap: 24px;
 }
+.gap-12 {
+    gap: 12px;
+}
 
 p {
     font-size: 1.2em;
