@@ -1,100 +1,151 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lottie Player</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="https://adir-sl.github.io/LottieWebsite/images/favicon.png"
+        />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lottie Player</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="https://adir-sl.github.io/LottieWebsite/images/favicon.png">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
 
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content="lottieplayer.com" />
+        <meta property="twitter:title" content="Lottie Player" />
+        <meta
+            property="twitter:description"
+            content="It plays Lottie Animations. On your own Mac."
+        />
+        <meta property="twitter:creator" content="@adircode" />
+        <meta
+            name="twitter:image"
+            content="https://adir-sl.github.io/LottieWebsite/images/social-min.png"
+        />
+        <meta property="og:title" content="Lottie Player" />
+        <meta
+            property="og:description"
+            content="It plays Lottie Animations. On your own Mac."
+        />
+        <meta
+            property="og:image"
+            content="https://adir-sl.github.io/LottieWebsite/images/social-min.png"
+        />
 
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:site" content="lottieplayer.com">
-    <meta property="twitter:title" content="Lottie Player">
-    <meta property="twitter:description" content="It plays Lottie Animations. On your own Mac.">
-    <meta property="twitter:creator" content="@adircode">
-    <meta name="twitter:image" content="https://adir-sl.github.io/LottieWebsite/images/social-min.png">
-    <meta property="og:title" content="Lottie Player" />
-    <meta property="og:description" content="It plays Lottie Animations. On your own Mac." />
-    <meta property="og:image" content="https://adir-sl.github.io/LottieWebsite/images/social-min.png" />
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-KXBTBM72E1"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXBTBM72E1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+            gtag("config", "G-KXBTBM72E1");
+        </script>
+    </head>
 
-        gtag('config', 'G-KXBTBM72E1');
-    </script>
-</head>
-
-<body>
-    <div id="wrapper">
-        <div class="flex center column">
-            <div class="flex column">
-                <div class="flex center gap">
-                    <img src="images/lottie-player-icon-dark-min.png" class="icon" />
-                    <h1>Lottie Player</h1>
+    <body>
+        <div id="wrapper">
+            <div class="flex center column">
+                <div class="flex column">
+                    <div class="flex center gap">
+                        <img
+                            src="images/lottie-player-icon-dark-min.png"
+                            class="icon"
+                        />
+                        <h1>Lottie Player</h1>
+                    </div>
+                    <p class="center">
+                        It plays Lottie Animations.<br />On your own Mac.
+                    </p>
                 </div>
-                <p class="center">It plays Lottie Animations.<br />On your own Mac.</p>
-            </div>
-            <div class="image">
-                <div id="lottie-1" class="lottie"></div>
-                <div id="lottie-2" class="lottie"></div>
-                <img src="images/lottie-player_v1.0.3-min.png" class="screen" />
-            </div>
-            <div class="flex gap gap-12">
-                <a href="download.html" class="button" aria-role="button">DOWNLOAD FOR MAC</a>
-                <a href="download-win.html" class="button secondary" aria-role="button">DOWNLOAD FOR WINDOWS</a>
-            </div>
-            <h2>Features</h2>
-            <ul>
-                <li>
-                    <img src="icons/icon-open.svg" />
-                    <div>View and Play Lottie Animations (.json files)</div>
-                </li>
-                <li>
-                    <img src="icons/icon-playAll.svg" />
-                    <div>Synchronizing two different animations</div>
-                </li>
-                <li>
-                    <img src="icons/icon-fullScreen.svg" />
-                    <div>Play animations in Full Screen or Side by Side</div>
-                </li>
-                <li>
-                    <img src="icons/icon-pause.svg" />
-                    <div>Click an animation to Pause or Play it</div>
-                </li>
-                <li>
-                    <img src="icons/icon-loop.svg" />
-                    <div>Playing animations in Loop or Play Once</div>
-                </li>
-            </ul>
-            <h2>Installation</h2>
-            <ol>
-                <li>Download the latest release file</li>
-                <li>Extract the ZIP file</li>
-                <li>Copy the APP file to your Application folder</li>
-                <li>Double click to open Lottie Player</li>
-                <li>If it does not open for security reasons, click Done</li>
-                <li>Go to System Settings then click Privacy & Security, then click Open and Open Anyway</li>
-            </ol>
+                <div class="image">
+                    <div id="lottie-1" class="lottie"></div>
+                    <div id="lottie-2" class="lottie"></div>
+                    <img
+                        src="images/lottie-player_v1.0.3-min.png"
+                        class="screen"
+                    />
+                </div>
+                <div class="flex gap gap-12">
+                    <a href="download.html" class="button" aria-role="button">
+                        DOWNLOAD FOR MAC
+                    </a>
+                    <a
+                        href="download-win.html"
+                        class="button secondary"
+                        aria-role="button"
+                    >
+                        DOWNLOAD FOR WINDOWS
+                    </a>
+                </div>
+                <h2>Features</h2>
+                <ul>
+                    <li>
+                        <img src="icons/icon-open.svg" />
+                        <div>View and Play Lottie Animations (.json files)</div>
+                    </li>
+                    <li>
+                        <img src="icons/icon-playAll.svg" />
+                        <div>Synchronizing two different animations</div>
+                    </li>
+                    <li>
+                        <img src="icons/icon-fullScreen.svg" />
+                        <div>
+                            Play animations in Full Screen or Side by Side
+                        </div>
+                    </li>
+                    <li>
+                        <img src="icons/icon-pause.svg" />
+                        <div>Click an animation to Pause or Play it</div>
+                    </li>
+                    <li>
+                        <img src="icons/icon-loop.svg" />
+                        <div>Playing animations in Loop or Play Once</div>
+                    </li>
+                </ul>
+                <h2>Installation</h2>
+                <ol>
+                    <li>Download the latest release file</li>
+                    <li>Extract the ZIP file</li>
+                    <li>Copy the APP file to your Application folder</li>
+                    <li>Double click to open Lottie Player</li>
+                    <li>
+                        If it does not open for security reasons, click Done
+                    </li>
+                    <li>
+                        Go to System Settings then click Privacy & Security,
+                        then click Open and Open Anyway
+                    </li>
+                </ol>
 
-            <footer>
-                Made with 💜 by <a href="https://github.com/Adir-SL" target="_blank">Adir-SL</a>
-            </footer>
+                <footer>
+                    Made with 💜 by
+                    <a href="https://github.com/Adir-SL" target="_blank"
+                        >Adir-SL</a
+                    >
+                </footer>
+            </div>
         </div>
-    </div>
 
-    <script src="lottie.js"></script>
-</body>
-
+        <script src="lottie.js"></script>
+    </body>
 </html>
