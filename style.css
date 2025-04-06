@@ -104,12 +104,13 @@ h1 {
 
 .icon-tabler {
     color: #ffffff;
-    transform: translateY(4px)
+    transform: translateY(4px);
+    margin-right: 4px;
 }
 
 .button.secondary {
-    background-clip: text;
     color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
 }
 
