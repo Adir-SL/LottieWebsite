@@ -111,7 +111,8 @@ h1 {
 .button.secondary {
     background: transparent;
 }
-.button.secondary .icon-tabler path{
+
+.button.secondary .icon-tabler path {
     fill: linear-gradient(-90deg, #D1B9FF 14.46%, #DB31A0 81.87%);
 }
 
