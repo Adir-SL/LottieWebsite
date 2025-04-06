@@ -110,9 +110,6 @@ h1 {
 
 .button.secondary {
     background: transparent;
-    /* color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text; */
 }
 .button.secondary .icon-tabler path{
     fill: linear-gradient(-90deg, #D1B9FF 14.46%, #DB31A0 81.87%);
